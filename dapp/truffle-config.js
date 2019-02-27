@@ -1,6 +1,6 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
 const infuraKey = '13eb2f7a24d048379237d1a85912203c';
-const mnemonic = 'poesía azote litro minero alma poder negocio capaz dueño secta ocurrir ochenta';
+const mnemonic = 'resist border lift moon answer require off clay elegant stage party panel';
 
 
 module.exports = {
