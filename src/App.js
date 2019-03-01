@@ -15,8 +15,8 @@ class App extends Component {
       instance: ''
     }
 
-    this.hd = new HDWalletProvider(mnemonic, 'http://127.0.0.1:7545');
-    //this.hd = new HDWalletProvider(mnemonic, 'http://ropsten.infura.io/v3/13eb2f7a24d048379237d1a85912203c');
+    //this.hd = new HDWalletProvider(mnemonic, 'http://127.0.0.1:7545');
+    this.hd = new HDWalletProvider(mnemonic, 'https://ropsten.infura.io/v3/13eb2f7a24d048379237d1a85912203c');
     this.test = new TruffleContract(Test);
     this.test.setProvider(this.hd);
   }
